@@ -1,0 +1,9 @@
+type Mutation{
+    saveUser(user:User):UserDTO
+    deleteUser(id:ID):DeleteUserPayload
+}
+
+type DeleteUserPayload{
+    deleted : String
+    user : UserDTO
+}

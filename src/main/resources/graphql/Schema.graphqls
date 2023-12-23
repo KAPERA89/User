@@ -1,0 +1,14 @@
+type UserDTO{
+    email:String
+    name :String
+    dateNaissance :String
+}
+
+
+input User{
+    id_User:ID
+    name :String
+    email:String
+    dateNaissance :String
+    password:String
+}
